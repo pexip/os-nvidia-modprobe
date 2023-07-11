@@ -1,3 +1,15 @@
+nvidia-modprobe (535.54.03-1~deb12u1) bookworm; urgency=medium
+
+  * Rebuild for bookworm.
+
+ -- Andreas Beckmann <anbe@debian.org>  Wed, 12 Jul 2023 00:16:04 +0200
+
+nvidia-modprobe (535.54.03-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 02 Jul 2023 20:36:35 +0200
+
 nvidia-modprobe (530.30.02-2) unstable; urgency=medium
 
   * Updated nvidia-modprobe to create symbolic links in /dev/char when
@@ -72,6 +84,18 @@ nvidia-modprobe (495.44-1) experimental; urgency=medium
   * Upload to experimental.
 
  -- Andreas Beckmann <anbe@debian.org>  Sun, 07 Nov 2021 09:19:56 +0100
+
+nvidia-modprobe (470.182.03-1) bullseye; urgency=medium
+
+  * New upstream release.
+    - Updated nvidia-modprobe to create symbolic links in /dev/char when
+      creating the /dev/nvidia* device nodes. This resolves an issue that
+      prevented the device nodes from working with newer versions of runc:
+      https://github.com/opencontainers/runc/issues/3708
+  * Update Lintian overrides.
+  * Upload to bullseye.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 16 Apr 2023 21:40:37 +0200
 
 nvidia-modprobe (470.103.01-1~deb11u1) bullseye; urgency=medium
 
