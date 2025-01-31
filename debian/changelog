@@ -1,4 +1,4 @@
-nvidia-modprobe (535.161.07-1~deb12u1+pexip24u1) bookworm; urgency=medium
+nvidia-modprobe (535.161.07-1~deb12u1+pexip24u1) pexip; urgency=medium
 
   * New upstream release.
 
