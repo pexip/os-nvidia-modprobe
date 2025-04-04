@@ -1,3 +1,33 @@
+nvidia-modprobe (570.133.07-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh patches.
+
+ -- Andreas Beckmann <anbe@debian.org>  Fri, 04 Apr 2025 23:31:35 +0200
+
+nvidia-modprobe (550.144.03-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.7.2. No changes needed.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 29 Mar 2025 17:11:14 +0100
+
+nvidia-modprobe (550.78-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh patches.
+  * Bump Standards-Version to 4.7.0. No changes needed.
+  * Upload to unstable.
+
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 23 May 2024 11:01:24 +0200
+
+nvidia-modprobe (545.29.06-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Upload to experimental.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 01 Apr 2024 22:37:25 +0200
+
 nvidia-modprobe (535.161.07-1~deb12u1) bookworm; urgency=medium
 
   * Rebuild for bookworm.
