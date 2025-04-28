@@ -13,16 +13,16 @@ Description: use setuid(0) to preserve privileges over shell invocations
 Bug-Debian: https://bugs.debian.org/888952
 Forwarded: not-needed
 
---- nvidia-modprobe-384.111.orig/modprobe-utils/nvidia-modprobe-utils.c
-+++ nvidia-modprobe-384.111/modprobe-utils/nvidia-modprobe-utils.c
-@@ -374,6 +374,10 @@ static int modprobe_helper(const int pri
-              */
-             silence_current_process();
+--- a/modprobe-utils/nvidia-modprobe-utils.c
++++ b/modprobe-utils/nvidia-modprobe-utils.c
+@@ -298,6 +298,10 @@ static int modprobe_helper(const int pri
+         return 0;
+     }
  
-+            /* Workaround for debian's /etc/modprobe.d/nvidia.conf configuration.
-+             * See Bug#888952 for details */
-+            setuid(0);
++    /* Workaround for debian's /etc/modprobe.d/nvidia.conf configuration.
++     * See Bug#888952 for details */
++    setuid(0);
 +
-             execle(modprobe_path, "modprobe",
-                    module_name, NULL, envp);
+     /* Fork and exec modprobe from the child process. */
  
+     file_actions = silence_process_actions();

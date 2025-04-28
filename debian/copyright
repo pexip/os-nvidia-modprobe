@@ -10,7 +10,7 @@ Disclaimer:
 
 Files: *
 Copyright:
- Copyright (C) 2004-2023 NVIDIA Corporation
+ Copyright (C) 2004-2024 NVIDIA Corporation
 License: Expat
 
 Files: modprobe-utils/pci-enum.h
@@ -27,7 +27,7 @@ License: Expat
 
 Files: debian/*
 Copyright:
- © 2014-2024 Andreas Beckmann <anbe@debian.org>
+ © 2014-2025 Andreas Beckmann <anbe@debian.org>
 License: Expat
 
 License: Expat
